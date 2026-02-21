@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import uuid
 
-API_URL = "https://lemniscarag-1.onrender.com"
+API_URL = "https://lemniscarag-production.up.railway.app/"
 
 st.set_page_config(page_title="ClearPath RAG Chat", layout="wide")
 
