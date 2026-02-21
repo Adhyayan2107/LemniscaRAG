@@ -22,6 +22,4 @@ def retrieve_top_k(query, chunks, embedding_model, k=3):
 
     scores.sort(key=lambda x: x[0], reverse=True)
 
-    top_chunks = [item[1] for item in scores[:k]]
-
-    return top_chunks
+    return scores[:k]   # return score + chunk

@@ -1,10 +1,16 @@
 def build_prompt(query, retrieved_chunks):
+    # context = "\n\n".join(
+    #     [chunk["text"] for chunk in retrieved_chunks]
+    # )
+
     context = "\n\n".join(
-        [chunk["text"] for chunk in retrieved_chunks]
+        f"Source: {chunk['filename']}\n{chunk['text']}" # just with file name for a proper result!
+        for chunk in retrieved_chunks
     )
 
     prompt = f"""
         You are a helpful assistant answering questions strictly using the provided context.
+        Cite the source filename in your answer.
         
         If the answer is not found in the context, say:
         "I cannot find this information in the provided documents."
