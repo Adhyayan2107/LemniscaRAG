@@ -7,6 +7,7 @@ from backend.text_chunking.text_splitter_langchain import split_documents
 from backend.text_chunking.loadingdata import load_documents
 from backend.vector_store.vector_store import save_chunks, load_chunks
 from dotenv import load_dotenv
+import asyncio
 import uuid
 import os
 
@@ -14,8 +15,7 @@ load_dotenv()
 
 chunks = None
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
+def load_vectors():
     global chunks
 
     VECTOR_STORE_PATH = os.path.join(os.getcwd(), "vector_store.pkl")
@@ -37,16 +37,17 @@ async def lifespan(app: FastAPI):
         chunks = chunks_embedded
         print("Created embeddings")
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    loop = asyncio.get_event_loop()
+    await loop.run_in_executor(None, load_vectors)
     yield
 
-
 app = FastAPI(lifespan=lifespan)
-
 
 class QueryRequest(BaseModel):
     question: str
     conversation_id: str | None = None
-
 
 @app.post("/query")
 def query_endpoint(request: QueryRequest):
