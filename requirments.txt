@@ -1,0 +1,7 @@
+pandas
+numpy
+pypdf
+sentence-transformers
+langchain-text-splitters
+groq
+dotenv
