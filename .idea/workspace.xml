@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="just making some updates in RAG!&#10;1) added the confidence level =&gt; threshold is 0.35 and minimum threshold before rejection is 0.20!&#10;2) temperature  = 0 (so data is factual not creative!)">
-      <change afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitigonre" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitigonre" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Similarity_search/similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Similarity_search/similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prompt_llm/llm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompting.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prompt_llm/prompting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_chunking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/text_chunking/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_chunking/chunking.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/text_chunking/chunking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_chunking/loadingdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/text_chunking/loadingdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_chunking/text_splitter_langchain.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/text_chunking/text_splitter_langchain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_embedding/embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/text_embedding/embedding.py" afterDir="false" />
+    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="Cleaned the folder Structure!&#10;done with the endpoints (@post/query)! and it works well!&#10;evaluation flags and classification rules also made!">
+      <change afterPath="$PROJECT_DIR$/backend/text_chunking/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prompt_llm/prompting.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prompt_llm/prompting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/vector_store.pkl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +75,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/backend/vector_store" />
       <recent name="$PROJECT_DIR$/backend/Evaluations" />
       <recent name="$PROJECT_DIR$/backend/prompt_llm" />
       <recent name="$PROJECT_DIR$/backend" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -107,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771656542074</updated>
       <workItem from="1771656543099" duration="431000" />
-      <workItem from="1771656989466" duration="8187000" />
+      <workItem from="1771656989466" duration="9614000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started with the project!">
       <option name="closed" value="true" />
@@ -141,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771662596862</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cleaned the folder Structure!&#10;done with the endpoints (@post/query)! and it works well!&#10;evaluation flags and classification rules also made!">
+      <option name="closed" value="true" />
+      <created>1771665330590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771665330590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +151,8 @@
     <MESSAGE value="Getting all docs! and setting things up!" />
     <MESSAGE value="Done with implementing Basic RAG! used langchain (Text splitter), for better chunk formation!" />
     <MESSAGE value="just making some updates in RAG!&#10;1) added the confidence level =&gt; threshold is 0.35 and minimum threshold before rejection is 0.20!&#10;2) temperature  = 0 (so data is factual not creative!)" />
-    <option name="LAST_COMMIT_MESSAGE" value="just making some updates in RAG!&#10;1) added the confidence level =&gt; threshold is 0.35 and minimum threshold before rejection is 0.20!&#10;2) temperature  = 0 (so data is factual not creative!)" />
+    <MESSAGE value="Cleaned the folder Structure!&#10;done with the endpoints (@post/query)! and it works well!&#10;evaluation flags and classification rules also made!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned the folder Structure!&#10;done with the endpoints (@post/query)! and it works well!&#10;evaluation flags and classification rules also made!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LemniscaRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1771664761397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
