@@ -17,5 +17,11 @@ def generate_answer(prompt, model="llama-3.1-8b-instant"):
         ],
         temperature=0
     )
+    answer = response.choices[0].message.content
 
-    return response.choices[0].message.content
+    tokens = {
+        "input": response.usage.prompt_tokens,
+        "output": response.usage.completion_tokens
+    }
+
+    return answer, tokens

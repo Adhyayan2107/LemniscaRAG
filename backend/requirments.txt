@@ -5,3 +5,5 @@ sentence-transformers
 langchain-text-splitters
 groq
 dotenv
+fastapi
+uvicorn
