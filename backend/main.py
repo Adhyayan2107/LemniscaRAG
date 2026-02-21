@@ -3,21 +3,26 @@ from pydantic import BaseModel
 from backend.Rag import process_query
 from dotenv import load_dotenv
 import uuid
+import os
 
 load_dotenv()
+
 app = FastAPI()
 
 from backend.text_embedding.embedding import embed_chunks
 from backend.text_chunking.text_splitter_langchain import split_documents
 from backend.text_chunking.loadingdata import load_documents
 from backend.vector_store.vector_store import save_chunks, load_chunks
-import os
 
-if os.path.exists("/Users/adhyayan/PycharmProjects/LemniscaRAG/backend/vector_store/vector_store.pkl"):
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+VECTOR_STORE_PATH = os.path.join(BASE_DIR, "vector_store", "vector_store.pkl")
+DOCS_PATH = os.path.join(BASE_DIR, "..", "clearpath_docs")
+
+if os.path.exists(VECTOR_STORE_PATH):
     chunks = load_chunks()
     print("Loaded saved embeddings")
 else:
-    documents = load_documents('/Users/adhyayan/PycharmProjects/LemniscaRAG/clearpath_docs')
+    documents = load_documents(DOCS_PATH)
     chunks = split_documents(documents)
     chunks = embed_chunks(chunks)
     save_chunks(chunks)
@@ -26,7 +31,6 @@ else:
 class QueryRequest(BaseModel):
     question: str
     conversation_id: str | None = None
-
 
 @app.post("/query")
 def query_endpoint(request: QueryRequest):

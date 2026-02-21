@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="Added a simple frontend using streamlit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat.py" afterDir="false" />
+    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="deployed the backend on render.com and frontend on streamlit">
+      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771656542074</updated>
       <workItem from="1771656543099" duration="431000" />
-      <workItem from="1771656989466" duration="11272000" />
+      <workItem from="1771656989466" duration="11837000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started with the project!">
       <option name="closed" value="true" />
@@ -146,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771669093748</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="deployed the backend on render.com and frontend on streamlit">
+      <option name="closed" value="true" />
+      <created>1771671081161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771671081161</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,8 @@
     <MESSAGE value="just making some updates in RAG!&#10;1) added the confidence level =&gt; threshold is 0.35 and minimum threshold before rejection is 0.20!&#10;2) temperature  = 0 (so data is factual not creative!)" />
     <MESSAGE value="Cleaned the folder Structure!&#10;done with the endpoints (@post/query)! and it works well!&#10;evaluation flags and classification rules also made!" />
     <MESSAGE value="Added a simple frontend using streamlit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a simple frontend using streamlit" />
+    <MESSAGE value="deployed the backend on render.com and frontend on streamlit" />
+    <option name="LAST_COMMIT_MESSAGE" value="deployed the backend on render.com and frontend on streamlit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LemniscaRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1771664761397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
