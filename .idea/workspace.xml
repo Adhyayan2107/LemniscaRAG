@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="remanmed the requirements.txt">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements-backend.txt" afterDir="false" />
+    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="as the overall requiremnt was very heavy! splitting it into frontend-requirments na dbackjend-requirments">
+      <change beforePath="$PROJECT_DIR$/requirements-backend.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771656542074</updated>
       <workItem from="1771656543099" duration="431000" />
-      <workItem from="1771656989466" duration="13258000" />
+      <workItem from="1771656989466" duration="13638000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started with the project!">
       <option name="closed" value="true" />
@@ -169,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771672181439</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="as the overall requiremnt was very heavy! splitting it into frontend-requirments na dbackjend-requirments">
+      <option name="closed" value="true" />
+      <created>1771673076218</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771673076218</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +193,8 @@
     <MESSAGE value="deployed the backend on render.com and frontend on streamlit" />
     <MESSAGE value="changed to relative path" />
     <MESSAGE value="remanmed the requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="remanmed the requirements.txt" />
+    <MESSAGE value="as the overall requiremnt was very heavy! splitting it into frontend-requirments na dbackjend-requirments" />
+    <option name="LAST_COMMIT_MESSAGE" value="as the overall requiremnt was very heavy! splitting it into frontend-requirments na dbackjend-requirments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LemniscaRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1771664761397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
