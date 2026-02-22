@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="using threads now to balance the load! because the ports are not being assigned!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="added procfile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +98,7 @@
       <updated>1771656542074</updated>
       <workItem from="1771656543099" duration="431000" />
       <workItem from="1771656989466" duration="16730000" />
-      <workItem from="1771682030720" duration="6661000" />
+      <workItem from="1771682030720" duration="6989000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started with the project!">
       <option name="closed" value="true" />
@@ -240,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771682130784</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added procfile">
+      <option name="closed" value="true" />
+      <created>1771739451666</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1771739451666</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +268,8 @@
     <MESSAGE value="requirmnets added" />
     <MESSAGE value="updated main.py!" />
     <MESSAGE value="using threads now to balance the load! because the ports are not being assigned!" />
-    <option name="LAST_COMMIT_MESSAGE" value="using threads now to balance the load! because the ports are not being assigned!" />
+    <MESSAGE value="added procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="added procfile" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LemniscaRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1771664761397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
