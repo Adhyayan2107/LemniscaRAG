@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="using port 8000">
-      <change beforePath="$PROJECT_DIR$/backend/Rag.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/rag.py" afterDir="false" />
+    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="added pydantic to reqruiments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <updated>1771656542074</updated>
       <workItem from="1771656543099" duration="431000" />
       <workItem from="1771656989466" duration="16730000" />
-      <workItem from="1771682030720" duration="7910000" />
+      <workItem from="1771682030720" duration="9313000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started with the project!">
       <option name="closed" value="true" />
@@ -263,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771740158692</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Rag -&gt; rag">
+      <option name="closed" value="true" />
+      <created>1771740595096</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1771740595096</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added pydantic to reqruiments">
+      <option name="closed" value="true" />
+      <created>1771740703449</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1771740703449</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +306,9 @@
     <MESSAGE value="using threads now to balance the load! because the ports are not being assigned!" />
     <MESSAGE value="added procfile" />
     <MESSAGE value="using port 8000" />
-    <option name="LAST_COMMIT_MESSAGE" value="using port 8000" />
+    <MESSAGE value="Rag -&gt; rag" />
+    <MESSAGE value="added pydantic to reqruiments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pydantic to reqruiments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LemniscaRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1771664761397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
