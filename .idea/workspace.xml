@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="requirmnets added">
-      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+    <list default="true" id="aca6b9ed-536a-4ae4-afca-414495cecb58" name="Changes" comment="using threads now to balance the load! because the ports are not being assigned!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,9 @@
     &quot;accountId&quot;: &quot;a251712b-2920-4026-b258-d2370b3a2943&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -48,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.create_vectors.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -95,7 +101,8 @@
       <option name="presentableId" value="Default" />
       <updated>1771656542074</updated>
       <workItem from="1771656543099" duration="431000" />
-      <workItem from="1771656989466" duration="16116000" />
+      <workItem from="1771656989466" duration="16730000" />
+      <workItem from="1771682030720" duration="6661000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started with the project!">
       <option name="closed" value="true" />
@@ -217,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771674744975</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated main.py!">
+      <option name="closed" value="true" />
+      <created>1771676261183</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1771676261183</updated>
+    </task>
+    <task id="LOCAL-00017" summary="using threads now to balance the load! because the ports are not being assigned!">
+      <option name="closed" value="true" />
+      <created>1771682130784</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1771682130784</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,10 +262,13 @@
     <MESSAGE value="relative path change for vectorDB" />
     <MESSAGE value="made changes to deploy on render" />
     <MESSAGE value="requirmnets added" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirmnets added" />
+    <MESSAGE value="updated main.py!" />
+    <MESSAGE value="using threads now to balance the load! because the ports are not being assigned!" />
+    <option name="LAST_COMMIT_MESSAGE" value="using threads now to balance the load! because the ports are not being assigned!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LemniscaRAG$main.coverage" NAME="main Coverage Results" MODIFIED="1771664761397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/LemniscaRAG$test.coverage" NAME="test Coverage Results" MODIFIED="1771662233785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LemniscaRAG$test.coverage" NAME="test Coverage Results" MODIFIED="1771738640260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/LemniscaRAG$create_vectors.coverage" NAME="create_vectors Coverage Results" MODIFIED="1771738995552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/vector_store" />
   </component>
 </project>
