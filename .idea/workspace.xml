@@ -98,7 +98,7 @@
       <updated>1771656542074</updated>
       <workItem from="1771656543099" duration="431000" />
       <workItem from="1771656989466" duration="16730000" />
-      <workItem from="1771682030720" duration="6989000" />
+      <workItem from="1771682030720" duration="7396000" />
     </task>
     <task id="LOCAL-00001" summary="Getting Started with the project!">
       <option name="closed" value="true" />
@@ -244,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771739451666</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added procfile">
+      <option name="closed" value="true" />
+      <created>1771739820871</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771739820871</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
