@@ -7,3 +7,4 @@ groq
 pypdf
 python-dotenv
 requests
+langchain-text-splitters==0.2.2
